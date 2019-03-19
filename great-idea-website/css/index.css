@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+}
+header nav {
+	display: inline-block;
+	margin-top: 25px;
+	
+}
+header nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: black;
+	vertical-align: top;
+}
+
+header .logo {
+	margin-left: 130px;
+}
+
+.main-content section h2 {
+	font-size:60px;
+	width: 300px;
+	text-align: center;
+	margin: 150px 25px 5px 60px;
+	display: inline-block;
+	vertical-align: top;
+}
+.main-content section div {
+	display: inline-block;
+	padding: 5px 25px;
+	border: 1px solid black;
+	margin-bottom: 100px;
+	font-size: 15px;
+	font-family: Arial, san-serif;
+}
+
+.logo2{
+	display: inline-block;
+	margin-left: 90px;
+	margin-top: 50px;
+}
+.top-content{
+	border-bottom: 1px solid black;
+	width: 875px;
+}
+.middle-content {
+	margin-top: 20px;
+	
+}
+.middle-content h3 {
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 12px;
+}
+.middle-content section {
+	width: 425px;
+	margin-left: 0px;
+	display: inline-block;
+	margin-bottom: 30px;
+	
+}
+p {
+	width: 400px;
+	display: inline-block;
+	font-size: 15px;
+}
+.middle-img {
+	margin-bottom: 30px;
+}
+.bottom-content h3 {
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 12px;
+}
+.bottom-content {
+	border-bottom: 1px solid black;
+	width: 875px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+.thirds {
+	width: 277px;
+	display: inline-block;
+	font-size: 15px;
+}
+.bottom-content section {
+	width: 277px;
+	display: inline-block;
+	margin-right: 10px;
+}
+footer {
+	width: 900px;
+	margin: auto;
+}
+footer section {
+	text-align: center;
+	margin: 50px 0;
+}
