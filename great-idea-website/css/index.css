@@ -3,163 +3,267 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 .container {
-	width: 900px;
-	margin: auto;
+  width: 900px;
+  margin: auto;
 }
+
 header nav {
-	display: inline-block;
-	margin-top: 25px;
-	
+  display: inline-block;
+  margin-top: 25px;
 }
+
 header nav a {
-	margin: 20px;
-	text-decoration: none;
-	color: black;
-	vertical-align: top;
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  vertical-align: top;
 }
 
 header .logo {
-	margin-left: 130px;
+  margin-left: 130px;
 }
 
 .main-content section h2 {
-	font-size:60px;
-	width: 300px;
-	text-align: center;
-	margin: 150px 25px 5px 60px;
-	display: inline-block;
-	vertical-align: top;
-}
-.main-content section div {
-	display: inline-block;
-	padding: 5px 25px;
-	border: 1px solid black;
-	margin-bottom: 100px;
-	font-size: 15px;
-	font-family: Arial, san-serif;
+  font-size: 60px;
+  width: 300px;
+  text-align: center;
+  margin: 150px 25px 5px 60px;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.logo2{
-	display: inline-block;
-	margin-left: 90px;
-	margin-top: 50px;
+.main-content section div {
+  display: inline-block;
+  padding: 5px 25px;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  font-size: 15px;
+  font-family: Arial, san-serif;
 }
-.top-content{
-	border-bottom: 1px solid black;
-	width: 875px;
+
+.logo2 {
+  display: inline-block;
+  margin-left: 90px;
+  margin-top: 50px;
 }
+
+.top-content {
+  border-bottom: 1px solid black;
+  width: 875px;
+}
+
 .middle-content {
-	margin-top: 20px;
-	
+  margin-top: 20px;
 }
+
 .middle-content h3 {
-	display: inline-block;
-	margin-right: 50px;
-	margin-top: 12px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 12px;
 }
+
 .middle-content section {
-	width: 425px;
-	margin-left: 0px;
-	display: inline-block;
-	margin-bottom: 30px;
-	
+  width: 425px;
+  margin-left: 0px;
+  display: inline-block;
+  margin-bottom: 30px;
 }
+
 p {
-	width: 400px;
-	display: inline-block;
-	font-size: 15px;
+  width: 400px;
+  display: inline-block;
+  font-size: 15px;
 }
+
 .middle-img {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
+
 .bottom-content h3 {
-	display: inline-block;
-	margin-right: 50px;
-	margin-top: 12px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 12px;
 }
+
 .bottom-content {
-	border-bottom: 1px solid black;
-	width: 875px;
-	margin-bottom: 30px;
-	padding-bottom: 30px;
+  border-bottom: 1px solid black;
+  width: 875px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
+
 .thirds {
-	width: 277px;
-	display: inline-block;
-	font-size: 15px;
+  width: 277px;
+  display: inline-block;
+  font-size: 15px;
 }
+
 .bottom-content section {
-	width: 277px;
-	display: inline-block;
-	margin-right: 10px;
+  width: 277px;
+  display: inline-block;
+  margin-right: 10px;
 }
+
 footer {
-	width: 900px;
-	margin: auto;
+  width: 900px;
+  margin: auto;
 }
+
 footer section {
-	text-align: center;
-	margin: 50px 0;
+  text-align: center;
+  margin: 50px 0;
 }
